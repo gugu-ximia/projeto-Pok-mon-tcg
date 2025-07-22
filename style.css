@@ -1,0 +1,144 @@
+header {
+    background: black;
+    color: white;
+
+}
+.logo {
+    display: inline-flex;
+    width: 150px;
+    padding: 0px 0px 0px 20px;
+
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+#banner {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.inicio {
+    background-color: #000000;
+
+}
+
+.classico {
+    display: flex;
+    background: linear-gradient(#ffffff 0.5%, #E4EAF2 90.5%, #ffffff 100%);
+
+}
+
+.tcg {
+    font-family: 'Kant',sans-serif;
+    font-size: 25px;
+
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    padding: 40px 30px;
+
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+#poke-tcg {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 20px;
+    width: 35%;
+}
+
+.s-trunfo {
+    display: flex;
+
+}
+
+.trunfo {
+    font-family: 'Kant',sans-serif;
+    font-size: 25px;
+
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    padding: 40px 30px;
+
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+#poke-trunfo {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 20px;
+    width: 35%;
+}
+
+#b-trunfo {
+    padding: 10px 1px;
+
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15.5px;
+    
+}
+
+#b-trunfo:hover {
+    border-color: #ffffff;
+
+    border-width: 1px;
+    background: #000000;
+    color: #ffffff;
+}
+
+#b-tcg:hover {
+    border-color: #ffffff;
+
+    border-width: 1px;
+    background: #000000;
+    color: #ffffff;
+}
+
+#b-tcg {
+    background-color: #E4EAF2;
+    
+    padding: 10px 1px;
+
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 15.5px;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.copy {
+    display: block;
+    margin-left: 42.5%;
+    width: 15%;
+}
+
+.texto-Final {
+    font-size: 25px;
+    text-align: center;
+}
+
+#textoFinal {
+    text-align: center;
+}

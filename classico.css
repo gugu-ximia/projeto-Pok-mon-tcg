@@ -1,0 +1,186 @@
+header {
+    background: black;
+    color: white;
+
+}
+.logo {
+    display: inline-flex;
+    width: 150px;
+    padding: 0px 0px 0px 20px;
+
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.inicio {
+    padding: 10% 0px 10% 0px;
+    background-color: #000000;
+
+}  
+
+.principal {
+    background-color: #000000;
+    display: flex;
+
+
+}
+
+.bloco-alunos {
+    align-items: center;
+}
+
+.fotoClassico {
+    margin-right: 10%;
+    padding: 0px 0px 20px 0px;
+}
+
+.aluninhos {
+    margin-left: 40%;
+    padding: 20px 0px 0px 0px;
+    width: 25%;
+}
+
+.textoSecundario {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Kant',sans-serif;
+    color: #ffffff;
+}
+
+.textoDecks {
+    font-family: 'Kant',sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#linha {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* CLASSE CRIADA PARA MECHER NO 
+    TAMANHO DAS IMAGENS DO DECK*/
+.deckImg {
+
+    /* A IMAGEN VAI FICAR COM O SEU TAMANHO EM % 
+      PARA NÃO DESCONFIGURAR EM OUTROS APARELHOS */
+    width: 50%;
+
+}
+
+.decks {
+    list-style: none;
+
+}
+
+.decks li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5%;
+    padding: 30px 20px;
+
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+
+}
+
+li p {
+    font-size: 20px;
+    padding: 10px 5px;
+
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10.5px;
+
+}
+
+
+.decks :hover {
+    font-size: 20px;
+}
+
+#charizard {
+    background-color: white;
+}
+
+#charizard :active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#charizard :hover {
+    border-color: rgb(0, 0, 0);
+
+}
+
+#pikachu {
+    background-color: white;
+}
+
+#pikachu :active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+
+#pikachu :hover{
+    border-color: rgb(0, 0, 0);
+    
+}
+
+#mewtwo {
+    background-color: white;
+}
+
+#mewtwo :active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#mewtwo :hover {
+    border-color: #000000;
+
+}
+
+#misterio {
+    background-color: white;
+}
+
+#misterio :active {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.copy {
+    display: block;
+    margin-left: 43.5%;
+    width: 15%;
+}
+
+.texto-Final {
+    font-size: 25px;
+    text-align: center;
+}
+
+#textoFinal {
+    text-align: center;
+}
